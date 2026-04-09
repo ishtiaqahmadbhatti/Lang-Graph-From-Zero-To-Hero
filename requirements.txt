@@ -1,0 +1,85 @@
+# This file lists the dependencies for the LangChain project. It includes core components, integrations with various LLM providers, and utilities for document loading, embedding generation, and more.
+langchain
+# Core components and utilities
+langchain-core
+# Community-contributed modules and integrations
+langchain-community
+# Document Loaders and Text Splitters
+langchain-text-splitters
+# LLMs and Embeddings
+langchain-classic
+# Experimental features and utilities
+langchain-experimental
+
+# LangGraph
+langgraph
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# PyTorch (Required by transformers for model loading)
+torch
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# Web Framework for Deployment
+streamlit
+
+# Data Validation and Structured Output
+pydantic[email]
+
+# Graph Visualization
+grandalf
+
+# PDF Handling
+pypdf
+
+# Web Scraping
+beautifulsoup4
+
+# Selenium for dynamic content loading
+selenium
+
+# Database and Vector Store
+langchain-chroma
+
+# Sentence Transformers for embedding generation
+sentence-transformers
+
+# Wikipedia API
+wikipedia
+
+# FAISS for efficient similarity search
+faiss-cpu
+
+# DuckDuckGo Search API
+ddgs
+
+# Vectorless Page Indexing
+pageindex
+
+# YouTube Transcript API
+youtube-transcript-api
+# Optional: For YouTube video downloading and processing
+pytube
+
+# Optional: For advanced YouTube video downloading and processing
+yt-dlp
